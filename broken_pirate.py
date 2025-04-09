@@ -1,7 +1,7 @@
-# Tsion fixed: added proper parentheses and colons, fixed logic issues
+# Tsion added proper parentheses and colons, fixed logic issues
 greeting = input("Hello, possible pirate! What's the password?")  # Tsion added input for pirate password
 
-# Tsion fixed: mismatched parentheses and incomplete condition
+# Tsion fixed mismatched parentheses and incomplete condition
 if greeting in ["Arrr!"]:  # Tsion changed the incorrect list syntax (missed closing parenthesis)
     print("Go away, pirate.")  # Tsion added this line to print if password matches "Arrr!"
 
